@@ -1,0 +1,25 @@
+{
+	"name": "smart-brain-api",
+	"version": "1.0.0",
+	"description": "API part of Smart Brain project",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HaylzRandom/smart-brain-api.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/HaylzRandom/smart-brain-api/issues"
+	},
+	"homepage": "https://github.com/HaylzRandom/smart-brain-api#readme",
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"cors": "^2.8.5",
+		"express": "^4.17.1"
+	}
+}
